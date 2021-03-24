@@ -51,6 +51,9 @@ body {
 header {
     height: 500px;
     background-color: #0c325a;
+    background-image: url('../img/background-header.png');
+    background-size: 70%;background-repeat: no-repeat;
+    background-position: 112% 100%;
 }
 
 .header-nav {
@@ -83,4 +86,28 @@ header {
 }
 .btn-border {
     border: 1px solid white;
+}
+.btn-lg {
+    padding: 20px;
+}
+
+.jumbotron {
+    position: relative;
+    height: 420px;
+}
+
+.jumbotron-text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 45%;
+}
+.jumbotron-text h1 {
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: white;
+}
+.jumbotron-text a {
+    display: inline-block;
 }
