@@ -31,7 +31,7 @@ body {
     display: inline-block;
     padding: 0 10px;
 }
-.list-inline a:not(.btn) {
+.list-inline a:not(.btn,#select a) {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 10px;
@@ -43,13 +43,17 @@ body {
     text-transform: uppercase;
     font-size: 12px;
     color: white;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 10px;
 }
 
 .main-text {
     color: #898989;
     font-size: 16px;
+}
+
+h2 {
+    font-size: 30px;
 }
 
 /* Header */
@@ -171,11 +175,58 @@ header {
     text-align: left;
 }
 #section2 h2 {
-    font-size: 30px;
     margin-bottom: 15px;
 }
 #section2 a {
     display: inline-block;
     font-size: 12px;
     margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    height: 150px;
+    line-height: 150px;
+    background-color: #d3d3d3;
+}
+
+footer .float-left {
+    width: 50%;
+}
+
+.footer-left {
+    text-align: left;
+}
+.footer-right {
+    text-align: right;
+}
+
+#select {
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: left;
+    border-bottom: 1px solid #898989;
+}
+#select a {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    color: #898989;
+    z-index: 2;
+}
+#select i {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    display: inline-block;
+    z-index: 1;
 }
