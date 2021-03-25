@@ -49,7 +49,7 @@ body {
 
 .main-text {
     color: #898989;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /* Header */
@@ -126,7 +126,7 @@ header {
 }
 
 #intro h3 {
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 5px;
 }
 
@@ -135,4 +135,27 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#section1 {
+    margin: 0 1%;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+#section1 .float-left {
+    width: calc(100%/3);
+    padding: 30px 20px;
+    text-align: center;
+}
+
+#section1 img {
+    height: 150px;
+    margin-bottom: 30px;
+}
+#section1 h3 {
+    color: #7cbb02;
+    font-size: 22px;
+}
+#section1 hr {
+    margin: 30px 40%;
 }
