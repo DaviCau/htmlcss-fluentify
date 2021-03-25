@@ -56,6 +56,13 @@ h2 {
     font-size: 30px;
 }
 
+/* Help btn */
+#help {
+    position: fixed;
+    bottom: 1vh;
+    right: 15vw;
+}
+
 /* Header */
 header {
     height: 500px;
@@ -199,6 +206,10 @@ footer .float-left {
 }
 .footer-right {
     text-align: right;
+}
+
+.footer-right li:first-child {
+    font-size: 14px;
 }
 
 #select {
